@@ -1,0 +1,116 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tea Shop </title>
+    <style>
+        body {
+            <img src= "image1.jpg">
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            background-image: url('image2.jpg');
+            background-size: 100% 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: px;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 10px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .product {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+            flex: 0 1 calc(30% - 20px);
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .product {
+                flex: 0 1 calc(50% - 20px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style = "font-size:40px;text-align:center; line-height:40px;text-align:center;  font-family: Georgia , sans-serif;">Tea Shop<br>
+        <h2 style = "font-size:30px;text-align:center; line-height:30px;text-align:center;  font-family: Arial, sans-serif;">"Tea is a gentle reminder"</h1>
+    </header>
+    <p style = "font-size:30px;text-align:center; line-height:30px;text-align:center;  font-family: Arial, sans-serif;">" That there's always time for a little comfort and relaxation"</p>
+    <nav>
+        <a href="indexhome.html"  target="_blank">Home</a>
+        <a href="Menu.html"  target="_blank">Menu</a>
+        <a href="Aboutus.html">About Us</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div class="container">
+        <div class="product">
+            <a href="https://www.healthline.com/nutrition/top-10-evidence-based-health-benefits-of-green-tea" target="_blank"><img src="greentea.jpg" alt="Tea Product 1"  width="300" height="300"></a>
+            <h2>Green Tea</h2>
+            <p>Delicious and healthy green tea.</p>
+            <p style =  "font-size:20px;text-align:center;text-align:center;">Price = Rs. 15</p>
+        </div>
+        <div class="product">
+            <a href="https://www.thelist.com/182725/when-you-drink-black-tea-every-day-this-is-what-happens-to-your-body/" target="_blank"><img src="image.jpg" alt="Tea Product 2"  width="300" height="300"></a>
+            <h2>Black Tea</h2>
+            <p>Strong and aromatic black tea.</p>
+            <p style =  "font-size:20px;text-align:center;text-align:center;">Price = Rs. 12</p>
+        </div>
+        <div class="product">
+            <a href="https://www.lybrate.com/topic/herbal-tea-health-benefits" target="_blank"><img src="herbaltea.jpg" alt="Tea Product 3" width="300" height="300"></a>
+            <h2>Herbal Tea</h2>
+            <p>Relaxing and soothing herbal tea.</p>
+            <p style =  "font-size:20px;text-align:center;text-align:center;">Price = Rs. 20</p>
+        </div>
+        <div class="product">
+            <a href="https://gingerfacts.com/hibiscus-and-ginger-tea-benefits/" target="_blank"><img src="image02.jpg" alt="Tea Product 3" width="300" height="300"></a>
+            <h2>Special list</h2>
+            <p>Ginger tea.-- Price = Rs. 25</p>
+            <p>Elaichi tea-- Price = Rs. 25</p>
+            <p>Hibiscus tea-- Price = Rs. 30</p>
+            <p style =  "font-size:20px;text-align:center;text-align:center;">!!AS per Customer Order!!</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>copyright &copy; 2023 Tea Shop<sup>TM</p>
+    </footer>
+</body>
+</html>
